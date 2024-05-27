@@ -58,7 +58,7 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
   margin: 0 0 15px;
-  color: #0b5c7c;
+  color: #0b88ba;
   font-weight: 500;
 }
 
@@ -761,6 +761,7 @@ button[type=submit] {
 .single-services>p {
   color: #333;
   font-size: 14px;
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
@@ -978,7 +979,6 @@ button[type=submit] {
   background-attachment: fixed;
   width: 100%;
   height: auto;
-  position: relative;
   
 }
 
@@ -988,33 +988,27 @@ button[type=submit] {
 
 .work-right-text {
   background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+
 }
 
 .work-right-text h2 {
   color: #fff;
-  text-transform: none;
+  text-transform: uppercase;
   font-size: 24px;
-  text-align: center;
+  color: rgb(28, 153, 231);
+  font-weight: 400;
+  text-align: left;
 }
 
-.work-right-text h5 {
+.work-right-text p {
   color: #fff;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 200;
   line-height: 34px;
   text-transform: none;
-  text-align: center;
- 
-  
+  text-align: left;  
 }
 
-.work-right-text .sus-btn {
-  margin-left: 0;
-  margin-top: 20px;
-  align-items: center;
- 
-  
-}
 
 .single-awesome-4 {
   display: block;
