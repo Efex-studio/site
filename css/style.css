@@ -28,6 +28,7 @@ body {
 .top-icons #link {
   margin-left: 50px;
   padding-left: 10px;
+  
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -35,7 +36,6 @@ body {
 @media (max-width: 768px) {
   .top-icons #link  {
    padding-left: 2px;
-   padding-bottom: 40px;
   }
  }
  @media (max-height: 500px) {
@@ -233,7 +233,6 @@ input[type=password],
 input[type=tel],
 button,
 button[type=submit] {
-  -moz-appearance: none;
   box-shadow: none !important;
 }
 
@@ -302,14 +301,15 @@ button[type=submit] {
 }
 
 #header.header-scrolled {
-  background: rgba(3, 3, 3, 0.8);
-  height: 64px;
+  background: black;
+  margin-bottom: 20px;
+  height: 70px;
 }
 
 #header .logo h1 {
   font-size: 25px;
   margin: 0;
-  padding: 0;
+  padding-top: 40px;
   line-height: 1;
   color: white;
   font-weight: bold;
@@ -334,11 +334,14 @@ button[type=submit] {
 @media (max-width: 768px) {
   #header {
     height: 64px;
+    margin-bottom: 30px;
     background: rgba(0, 0, 0, 0.8);
   }
 
   #header .logo h1 {
-    font-size: 28px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 10px;
     color: white;
   }
 }
@@ -353,6 +356,7 @@ button[type=submit] {
 
 .header-bg::before {
   content: "";
+  padding-bottom: 20px;
   position: absolute;
   left: 0;
   right: 0;
@@ -374,13 +378,14 @@ button[type=submit] {
 * Desktop Navigation 
 */
 .navbar {
-  padding-top: 5px;
+  padding-top: 0px;
+  padding-bottom: 40px;
   margin-right: 10px;
 }
 
 .navbar ul {
+  padding-top: 40px;
   margin: 0;
-  padding-top: 5px;
   display: flex;
   list-style: none;
   align-items: center;
@@ -395,7 +400,7 @@ button[type=submit] {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 5px 0px 30px 30px;
   font-size: 15px;
   font-weight: 500;
   color: #fff;
@@ -1658,19 +1663,17 @@ button[type=submit] {
   }
 
   #blog-a{
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   #blog-readalso {
-    padding-left: 10px;
     border-left-color: #050505;
-    border-left: 2px solid;
-    padding: 15px;
+    padding: 0px;
     margin-top: 20px;
   }
 
   #blog-readalso i {
-    padding-left: 10px;
+    padding-left: 0px;
     font-weight: bold;
     border-left-color: #064083;
   }
@@ -1687,7 +1690,13 @@ button[type=submit] {
   #singlepost {
     padding-bottom: 50px;
   }
-
+  
+  @media (max-height: 500px) {
+    #singlepost {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
   #singlepost #span {
     white-space: 10px;
   }
@@ -1698,7 +1707,7 @@ button[type=submit] {
 
   #singlepost #socialshare {
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 0px;
     font-weight: bold;
     color: rgb(8, 8, 8);
   }
