@@ -7,63 +7,26 @@ body {
   height: 100%;
 }
 
-.top-icons {
-  background-color: #070707;
-  background-size: cover;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 90px;
+#privacy h1 {
+color: #137ec5;
+font-weight: bold;
 }
-@media (max-width: 768px) {
- .top-icons {
-  padding-left: 0px;
-  display: flex;
- }
-}
-@media (max-height: 500px) {
-  .top-icons {
-    padding-left: 0px;
-  }
-}
-.top-icons #link {
-  margin-left: 50px;
-  padding-left: 10px;
-  
-  text-transform: uppercase;
+
+
+#privacy h2 {
+  color: #067fa3;
   font-weight: bold;
-}
-
-@media (max-width: 768px) {
-  .top-icons #link  {
-   padding-left: 2px;
   }
- }
- @media (max-height: 500px) {
-   .top-icons #link {
-     padding-left: 2px;
-     padding-bottom: 40px;
-   }
- }
 
-.top-icons #top-icons-link a {
-  margin-left: 10px;
-  padding-left: 5px;
-  padding-right: 10px;
-  color: #fcfbfb;
+#privacy h3 {
+  color: #000;
   font-weight: bold;
-}
-@media (max-width: 768px) {
-  .top-icons #top-icons-link {
-   padding-left: 50px;
-   display: flex;
   }
- }
- @media (max-height: 500px) {
-  .top-icons #top-icons-link {
-     padding-left: 0px;
-   }
- }
 
+  #privacy h4 {
+    color: #000;
+    font-weight: bold;
+    }
 
 .floatleft {
   float: left;
@@ -177,6 +140,15 @@ body {
   text-align: left;
   overflow-x: hidden;
   line-height: 22px;
+}
+
+/*--------------------------------------------------------------
+bloghome
+---------------------------------------------------------------*/
+#banner {
+  background-image: url(../blogphoto/blogbg.png);
+  background-size: cover;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -296,7 +268,7 @@ button[type=submit] {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(0, 0, 0, 0.5);
+  background: black;
   margin-bottom: 20px;
 }
 
@@ -325,17 +297,24 @@ button[type=submit] {
   text-decoration: none;
 }
 
-#header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
+#logo-img {
+  padding-top: 35px;
+  height: 60px;
 }
+
+@media (max-width: 991px) {
+  #logo-img {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
 
 @media (max-width: 768px) {
   #header {
     height: 64px;
     margin-bottom: 30px;
-    background: rgba(0, 0, 0, 0.8);
+    background-color: #000;
   }
 
   #header .logo h1 {
@@ -344,10 +323,15 @@ button[type=submit] {
     padding-top: 10px;
     color: white;
   }
+
+  #logo-img {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 }
 
 .header-bg {
-  background: url(../img/background/page-header.jpg);
+  background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -378,13 +362,13 @@ button[type=submit] {
 * Desktop Navigation 
 */
 .navbar {
-  padding-top: 0px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   margin-right: 10px;
 }
 
 .navbar ul {
-  padding-top: 40px;
+  padding-top: 20px;
   margin: 0;
   display: flex;
   list-style: none;
@@ -525,6 +509,7 @@ button[type=submit] {
   position: absolute;
   top: 15px;
   right: 15px;
+  transition: 0.5s;
 }
 
 .navbar-mobile ul {
@@ -1829,19 +1814,31 @@ button[type=submit] {
 # Footer
 --------------------------------------------------------------*/
 .footer-area {
-  padding: 40px 0;
-  background: #f9f9f9;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-bottom: 40px;
 }
+
+.Newsletter {
+  padding-left: 20px;
+}
+.footer-links a {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  color: #444343;
+}
+
+
 
 .footer-head p {
   color: #444;
 }
 
-.footer-head h4 {
-  color: #444;
+.footer-area h6 {
+  color: #22a1d3;
+  font-weight: bold;
   font-size: 16px;
-  letter-spacing: 2px;
-  padding-bottom: 10px;
   text-transform: uppercase;
 }
 
