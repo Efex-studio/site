@@ -135,11 +135,11 @@ a:hover {
 body {
   background: #fff none repeat scroll 0 0;
   color: #2b2a2a;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
   text-align: left;
   overflow-x: hidden;
-  line-height: 22px;
+  line-height: 26px;
 }
 
 /*--------------------------------------------------------------
@@ -1642,9 +1642,10 @@ button[type=submit] {
     font-weight: bold;
   }
 
-  #blog-p {
-    padding-left: 10px;
-    font-size: 16px;
+  #blog-p{
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   #blog-a{
@@ -1808,47 +1809,69 @@ button[type=submit] {
 # Footer
 --------------------------------------------------------------*/
 .footer-area {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-right: 25px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .Newsletter {
-  padding-left: 10px;
+  padding-left: 0px;
 }
 .footer-links a {
-  font-weight: bold;
-  text-transform: capitalize;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  padding-left: 50px;
+  line-height: 26px;
   color: #444343;
 }
 
+.footer-links {
+  margin-bottom: 15px;
+}
+
+.footlink-header {
+  padding-left: 50px;
+  line-height: 26px;
+  color: #0c0c0c;
+}
+
+@media (min-width:500px) and (max-width:768px) {
+  .footlink-header{
+    padding-left: 0px;
+    line-height: 26px;
+    color: #0c0c0c;
+  }
+  .footer-links a {
+    padding-bottom: 5px;
+    font-size: 18px;
+    padding-left: 0px;
+    line-height: 26px;
+    color: #444343;
+  }
+  
+}
 .footer-head p {
   color: #444;
+  font-size: 16px;
 }
 
 .footer-area h6 {
-  color: #068bf8;
+  color: #0a0a0a;
   font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
 }
 
+
 .footer-logo {
   padding-bottom: 20px;
 }
 
-.footer-logo h2 {
+.footer-logo h3 {
   color: #222;
-  padding: 0;
-  margin: 0;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 1;
-}
-
-.footer-logo h2 span {
-  color: #3ec1d5;
 }
 
 .footer-icons ul li {
@@ -1876,7 +1899,7 @@ button[type=submit] {
   line-height: 0;
 }
 
-.flicker-img>a {
+.flicker-img a {
   float: left;
   padding: 1px;
   width: 33.33%;
@@ -1884,11 +1907,6 @@ button[type=submit] {
 
 .footer-icons {
   margin-top: 30px;
-}
-
-.footer-contacts p span {
-  color: #3EC1D5;
-  font-weight: 700;
 }
 
 .popular-tag ul li {
