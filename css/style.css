@@ -71,8 +71,9 @@ small {
 }
 p {
   margin: 0 0 15px;
-  font-size: 25px;
+  font-size: 16px;
   color: #181818;
+  font-family: "Raleway", sans-serif;
 }
 
 h1,
@@ -135,8 +136,8 @@ a:hover {
 body {
   background: #fff none repeat scroll 0 0;
   color: #2b2a2a;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
   text-align: left;
   overflow-x: hidden;
   line-height: 26px;
@@ -1670,26 +1671,24 @@ button[type=submit] {
     font-weight: bold;
   }
 
-  #blog-p{
-    font-size: 18px;
-    line-height: 26px;
-    font-family: Arial, Helvetica, sans-serif;
+  .divider {
+   justify-content: left;
+   align-content: center;
+   padding-left: 70px;
+   padding-right: 70px;
+   margin-bottom: 20px;
+    
   }
-
-
   .divider h6 {
+    justify-content: left;
     align-content: center;
     border-bottom: 2px solid; 
-    width: 50%;
-    margin-left: 120px;
     padding-bottom: 10px;
-    padding-left: 40px;
     font-size: large; 
     color: #050505; 
     text-transform: uppercase; 
     font-weight: bold; 
     border-color: rgb(28, 136, 236);
-
   }
 
   #blog-a{
@@ -1723,10 +1722,6 @@ button[type=submit] {
   
   #singlepost #span {
     white-space: 10px;
-  }
-
-  #singlepost #blog-p,p {
-    padding-top: 15px;
   }
 
   #singlepost #socialshare {
