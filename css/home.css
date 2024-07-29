@@ -8,13 +8,13 @@ body {
 }
 
 #privacy h1 {
-color: #0f6922;
+color: #0ba4b8;
 font-weight: bold;
 }
 
 
 #privacy h2 {
-  color: #0f6922;
+  color: #0ba4b8;
   font-weight: bold;
   }
 
@@ -121,7 +121,7 @@ h6 {
 a {
   transition: all 0.3s ease 0s;
   text-decoration: none;
-  color: #197437;
+  color: #0ba4b8;
 }
 
 a:hover {
@@ -192,7 +192,7 @@ bloghome
   border-radius: 25px;
   bottom: 40px;
   z-index: 996;
-  background: #047b38;
+  background: #068024;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -239,12 +239,12 @@ button[type=submit] {
 }
 
 ::-moz-selection {
-  background: #5cf007;
+  background: #0ba4b8;
   text-shadow: none;
 }
 
 ::selection {
-  background: #70f026;
+  background: #0ba4b8;
   text-shadow: none;
 }
 
@@ -318,7 +318,7 @@ button[type=submit] {
 }
 
 #header .logo h1 span {
-  color: #47be10;
+  color: #0ba4b8;
 }
 
 #header .logo h1 a,
@@ -328,8 +328,9 @@ button[type=submit] {
 }
 
 #logo-img {
-  padding-top: 25px;
-  height: 65px;
+  padding-top: 35px;
+  height: 60px;
+  size: 50%;
 }
 
 @media (max-width: 991px) {
@@ -342,7 +343,7 @@ button[type=submit] {
 
 @media (max-width: 768px) {
   #header {
-    height: 64px;
+    height: 55px;
     margin-bottom: 30px;
     background-color: #000;
   }
@@ -433,7 +434,7 @@ button[type=submit] {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #3d7737;
+  color: #0ba4b8;
 }
 
 .navbar .dropdown ul {
@@ -459,7 +460,7 @@ button[type=submit] {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #084e1d;
+  color: #0a0a0a;
 }
 
 .navbar .dropdown ul a i {
@@ -469,7 +470,7 @@ button[type=submit] {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #3af814;
+  color: #077996;
 }
 
 .navbar .dropdown:hover>ul {
@@ -559,7 +560,7 @@ button[type=submit] {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0c5c26;
+  color: #076f81;
 }
 
 .navbar-mobile a:hover,
@@ -600,7 +601,7 @@ button[type=submit] {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #44fc0c;
+  color: #0ba4b8;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -760,7 +761,7 @@ button[type=submit] {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #1f5225;
+  background: #0ba4b8;
 }
 
 #hero .btn-get-started:hover {
@@ -792,7 +793,7 @@ button[type=submit] {
 }
 
 .single-well ul li i {
-  color: #0a501b;
+  color: #0ba4b8;
   margin-right: 5px;
   font-size: 18px;
 }
@@ -1065,7 +1066,7 @@ button[type=submit] {
 }
 
 .work-left-text {
-  background: #097012 none repeat scroll 0 0;
+  background: #0ba4b8 none repeat scroll 0 0;
 }
 
 .work-right-text {
@@ -1077,7 +1078,7 @@ button[type=submit] {
   color: #fff;
   text-transform: uppercase;
   font-size: 24px;
-  color: rgb(13, 131, 39);
+  color: rgb(6, 99, 128);
   font-weight: 400;
   text-align: left;
 }
@@ -1140,7 +1141,7 @@ button[type=submit] {
 #portfolio-flters li:hover,
 #portfolio-flters li.filter-active {
   border-color: #0da50d;
-  background: #165023;
+  background: #0ba4b8;
   color: #fff;
 }
 
@@ -1595,7 +1596,7 @@ button[type=submit] {
 .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #0ba4b8;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1615,7 +1616,7 @@ button[type=submit] {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #0ba4b8;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1629,7 +1630,7 @@ button[type=submit] {
 
 .php-email-form input:focus,
 .php-email-form textarea:focus {
-  border-color: #6cc96c;
+  border-color: #0ba4b8;
 }
 
 .php-email-form input {
@@ -1689,7 +1690,7 @@ button[type=submit] {
     color: #050505; 
     text-transform: uppercase; 
     font-weight: bold; 
-    border-color: rgb(18, 107, 40);
+    border-color: rgb(10, 112, 138);
   }
 
   #blog-a{
@@ -1705,7 +1706,7 @@ button[type=submit] {
   #blog-readalso i {
     padding-left: 0px;
     font-weight: bold;
-    border-left-color: #0a582e;
+    border-left-color: #0ba4b8;
   }
 
   #blog-readmore ,p {
@@ -1744,7 +1745,7 @@ button[type=submit] {
    font-size: 16px;
    font-weight: bold;
    border-left: 3px solid;
-   border-color: #195827;
+   border-color: #0ba4b8;
    padding-left: 15px;
    margin-top: 15px;
   }
@@ -1961,7 +1962,7 @@ button[type=submit] {
 .popular-tag ul li a:hover,
 .footer-icons ul li a:hover {
   background: #1ef14c;
-  border: 1px solid #0f6922;
+  border: 1px solid #0ba4b8;
   color: #fff;
 }
 
@@ -1987,7 +1988,7 @@ button[type=submit] {
 
 .copyright-text a:hover {
   text-decoration: underline;
-  color: #54ee36;
+  color: #0ba4b8;
 }
 
 .copyright-text a {
@@ -2001,7 +2002,7 @@ button[type=submit] {
 
 .copyright a,
 .credits a {
-  color: #4dcc12;
+  color: #0ba4b8;
 }
 
 .credits {
