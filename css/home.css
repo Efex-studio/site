@@ -121,7 +121,7 @@ h6 {
 a {
   transition: all 0.3s ease 0s;
   text-decoration: none;
-  color: #0ba4b8;
+  color: #157cf1;
 }
 
 a:hover {
@@ -569,7 +569,7 @@ button[type=submit] {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #076f81;
+  color: #0a76db;
 }
 
 .navbar-mobile a:hover,
@@ -1164,6 +1164,9 @@ button[type=submit] {
   padding: 15px;
   width: 25%;
   position: relative;
+}
+#projects a {
+  color: #ffffff;
 }
 
 .single-awesome-project {
